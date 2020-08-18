@@ -12,6 +12,7 @@ virtualenv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
 python server.py
+```
 
 In a seperate terminal
 
@@ -30,8 +31,7 @@ python client.py list 0.0.0.0:5005
 Get flight ( dataset )
 ```
  python client.py get 0.0.0.0:5005 -p monroe-county-crash-data2003-to-2015.csv.gz
- ```
-
+```
 
 Query 
 ```
